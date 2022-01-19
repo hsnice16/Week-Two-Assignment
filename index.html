@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week Two Assignment</title>
+
+    <link rel="stylesheet" href="app.css" />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container margin-auto padding-1">
+      <h1>Week Two Assignment</h1>
+
+      <hr />
+
+      <h2 class="margin-lr-p5 margin-tb-1">Badge</h2>
+      <div
+        class="align-items-ctr component-container d-flex justify-content-ctr"
+      >
+        <button
+          class="border-none btn-home cursor-ptr margin-lr-1 pos-relative"
+        >
+          <i class="fas fa-home"></i>
+          <div
+            class="badge badge-br bottom-0 padding-t-p2 pos-absolute right-0"
+          >
+            3
+          </div>
+        </button>
+        <button
+          class="border-none btn-notify cursor-ptr margin-lr-1 pos-relative"
+        >
+          <i class="fas fa-bell"></i>
+          <div class="badge badge-tr padding-t-p2 pos-absolute right-0 top-0">
+            99+
+          </div>
+        </button>
+        <button
+          class="border-none btn-action cursor-ptr margin-lr-1 padding-lr-1 padding-tb-p5 pos-relative"
+        >
+          Action
+          <div class="badge badge-tl left-0 padding-t-p2 pos-absolute top-0">
+            9+
+          </div>
+        </button>
+        <div class="pos-relative text-w-badge">
+          Text with a badge
+          <div class="badge badge-tl left-0 padding-t-p2 pos-absolute">0</div>
+        </div>
+      </div>
+
+      <hr />
+
+      <h2 class="margin-lr-p5 margin-tb-1">Snackbar</h2>
+      <div class="component-container d-flex padding-p5">
+        <div
+          class="align-items-ctr d-flex justify-content-sb margin-auto padding-tb-p5 padding-lr-1 snackbar"
+        >
+          Can't send photo. Retry in 5 seconds.
+          <button class="bg-none border-none btn-retry cursor-ptr padding-p5">
+            RETRY
+          </button>
+          <button class="bg-none border-none btn-cross cursor-ptr padding-p5">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
