@@ -13,6 +13,10 @@
   width: 1rem;
 }
 
+.chip-btn-cross:hover {
+  box-shadow: 0.05rem 0.05rem 0.2rem var(--COLOR-STONE-500);
+}
+
 .chip-css {
   background: var(--COLOR-BLUE-600);
 }
