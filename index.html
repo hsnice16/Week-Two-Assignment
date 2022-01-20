@@ -26,7 +26,7 @@
       <h2 class="margin-lr-p5 margin-tb-1">Badge</h2>
 
       <div
-        class="align-items-ctr component-container d-flex justify-content-ctr"
+        class="align-items-ctr component-container d-flex flex-wrap justify-content-ctr"
       >
         <button
           class="border-none btn-home cursor-ptr margin-lr-1 pos-relative"
@@ -38,6 +38,7 @@
             3
           </span>
         </button>
+
         <button
           class="border-none btn-notify cursor-ptr margin-lr-1 pos-relative"
         >
@@ -48,8 +49,9 @@
             99+
           </span>
         </button>
+
         <button
-          class="border-none btn-action cursor-ptr margin-lr-1 padding-lr-1 padding-tb-p5 pos-relative"
+          class="border-none border-r-1p9 btn-action cursor-ptr margin-lr-1 padding-lr-1 padding-tb-p5 pos-relative"
         >
           Action
           <span
@@ -58,6 +60,7 @@
             9+
           </span>
         </button>
+
         <div class="pos-relative text-w-badge">
           Text with a badge
           <span
@@ -69,33 +72,81 @@
 
       <hr />
 
+      <h2 class="margin-lr-p5 margin-tb-1">Chips</h2>
+
+      <div
+        class="align-content-ctr align-items-ctr component-container d-flex flex-wrap justify-content-ctr"
+      >
+        <span class="border-r-2p5 chip chip-html margin-p5 padding-p2-p5"
+          ><i class="fab fa-html5"></i> HTML5
+          <button class="border-none border-r-50pct chip-btn-cross cursor-ptr">
+            <i class="fas fa-times"></i>
+          </button>
+        </span>
+
+        <span class="border-r-2p5 chip chip-css margin-p5 padding-p2-p5"
+          ><i class="fab fa-css3-alt"></i> CSS3
+          <button class="border-none border-r-50pct chip-btn-cross cursor-ptr">
+            <i class="fas fa-times"></i>
+          </button>
+        </span>
+
+        <span class="border-r-2p5 chip chip-js margin-p5 padding-p2-p5"
+          ><i class="fab fa-js-square"></i> JavaScript
+          <button class="border-none border-r-50pct chip-btn-cross cursor-ptr">
+            <i class="fas fa-times"></i>
+          </button>
+        </span>
+
+        <span class="border-r-2p5 chip chip-react margin-p5 padding-p2-p5"
+          ><i class="fab fa-react"></i> React
+          <button class="border-none border-r-50pct chip-btn-cross cursor-ptr">
+            <i class="fas fa-times"></i>
+          </button>
+        </span>
+
+        <span class="border-r-2p5 chip margin-p5 padding-p2-p5"> Apple </span>
+
+        <span class="border-r-2p5 chip margin-p5 padding-p2-p5"> Lemon </span>
+
+        <span class="border-r-2p5 chip margin-p5 padding-p2-p5">
+          Strawberry
+        </span>
+
+        <span class="border-r-2p5 chip margin-p5 padding-p2-p5"> Orange </span>
+      </div>
+
+      <hr />
+
       <h2 class="margin-lr-p5 margin-tb-1">Drawer</h2>
 
       <div
         class="align-items-ctr component-container d-flex flex-wrap justify-content-sa padding-p5"
       >
-        <aside class="border-r-2 drawer margin-p5 padding-p5">
+        <aside class="border-r-p2 drawer margin-p5 padding-p5">
           <h1 class="drawer-title padding-lr-p5">Title</h1>
+
           <h2 class="drawer-subtext padding-lr-p5">subtext</h2>
+
           <ul class="margin-t-1 ul-no-bullets">
             <li
-              class="border-r-2 cursor-ptr drawer-link link-active padding-p5"
+              class="border-r-p2 cursor-ptr drawer-link link-active padding-p5"
             >
               <a class="a-decoration-none" href="#"
                 ><i class="fas fa-inbox margin-r-1"></i> Inbox</a
               >
             </li>
-            <li class="border-r-2 cursor-ptr drawer-link padding-p5">
+            <li class="border-r-p2 cursor-ptr drawer-link padding-p5">
               <a class="a-decoration-none" href="#"
                 ><i class="fas fa-star margin-r-1"></i> Star</a
               >
             </li>
-            <li class="border-r-2 cursor-ptr drawer-link padding-p5">
+            <li class="border-r-p2 cursor-ptr drawer-link padding-p5">
               <a class="a-decoration-none" href="#"
                 ><i class="fas fa-paper-plane margin-r-1"></i> Sent Mail</a
               >
             </li>
-            <li class="border-r-2 cursor-ptr drawer-link padding-p5">
+            <li class="border-r-p2 cursor-ptr drawer-link padding-p5">
               <a class="a-decoration-none" href="#"
                 ><i class="fas fa-envelope-open margin-r-1"></i> Drafts</a
               >
@@ -103,28 +154,30 @@
           </ul>
         </aside>
 
-        <aside class="border-r-2 drawer margin-p5 padding-p5">
+        <aside class="border-r-p2 drawer margin-p5 padding-p5">
           <h1 class="drawer-title padding-lr-p5">Title</h1>
+
           <h2 class="drawer-subtext padding-lr-p5">subtext</h2>
+
           <ul class="margin-t-1 ul-no-bullets">
             <li
-              class="border-r-2 cursor-ptr drawer-link link-active padding-p5"
+              class="border-r-p2 cursor-ptr drawer-link link-active padding-p5"
             >
               <a class="a-decoration-none d-flex" href="#"
                 >Inbox <i class="fas fa-inbox margin-l-auto"></i>
               </a>
             </li>
-            <li class="border-r-2 cursor-ptr drawer-link padding-p5">
+            <li class="border-r-p2 cursor-ptr drawer-link padding-p5">
               <a class="a-decoration-none d-flex" href="#">
                 Star <i class="fas fa-star margin-l-auto"></i
               ></a>
             </li>
-            <li class="border-r-2 cursor-ptr drawer-link padding-p5">
+            <li class="border-r-p2 cursor-ptr drawer-link padding-p5">
               <a class="a-decoration-none d-flex" href="#"
                 >Sent Mail <i class="fas fa-paper-plane margin-l-auto"></i>
               </a>
             </li>
-            <li class="border-r-2 cursor-ptr drawer-link padding-p5">
+            <li class="border-r-p2 cursor-ptr drawer-link padding-p5">
               <a class="a-decoration-none d-flex" href="#">
                 Drafts <i class="fas fa-envelope-open margin-l-auto"></i
               ></a>
@@ -132,36 +185,47 @@
           </ul>
         </aside>
 
-        <aside class="border-r-2 drawer margin-p5 padding-p5">
+        <aside class="border-r-p2 drawer margin-p5 padding-p5">
           <h1 class="drawer-title padding-lr-p5">Title</h1>
+
           <h2 class="drawer-subtext padding-lr-p5">subtext</h2>
+
           <ul class="margin-t-1 ul-no-bullets">
-            <li class="border-r-2 cursor-ptr drawer-link padding-p5">
+            <li class="border-r-p2 cursor-ptr drawer-link padding-p5">
               <a class="a-decoration-none" href="#"
                 ><i class="fas fa-home margin-r-1"></i> Home</a
               >
             </li>
-            <li class="border-r-2 padding-p5">
+
+            <li class="border-r-p2 padding-p5">
               <i class="fas fa-cogs margin-r-1"></i> Utilities
               <ul class="ul-no-bullets">
-                <li class="border-r-2 cursor-ptr drawer-link margin-l-4 padding-p5">
+                <li
+                  class="border-r-p2 cursor-ptr drawer-link margin-l-4 padding-p5"
+                >
                   <a class="a-decoration-none" href="#">margins</a>
                 </li>
-                <li class="border-r-2 cursor-ptr  drawer-link margin-l-4 padding-p5">
+                <li
+                  class="border-r-p2 cursor-ptr drawer-link margin-l-4 padding-p5"
+                >
                   <a class="a-decoration-none" href="#">paddings</a>
                 </li>
               </ul>
             </li>
-            <li class="border-r-2 padding-p5">
+
+            <li class="border-r-p2 padding-p5">
               <i class="fas fa-puzzle-piece margin-r-1"></i> Component
               <ul class="ul-no-bullets">
-                <li class="border-r-2 cursor-ptr drawer-link link-active margin-l-4 padding-p5">
+                <li
+                  class="border-r-p2 cursor-ptr drawer-link link-active margin-l-4 padding-p5"
+                >
                   <a class="a-decoration-none" href="#">Drawer</a>
                 </li>
-                <li class="border-r-2 cursor-ptr drawer-link margin-l-4 padding-p5">
+                <li
+                  class="border-r-p2 cursor-ptr drawer-link margin-l-4 padding-p5"
+                >
                   <a class="a-decoration-none" href="#">Snackbar</a>
                 </li>
-                
               </ul>
             </li>
           </ul>
@@ -174,7 +238,7 @@
 
       <div class="component-container d-flex padding-p5">
         <header
-          class="align-items-ctr border-r-2 d-flex flex-wrap header margin-auto padding-tb-p5 padding-lr-1"
+          class="align-items-ctr border-r-p2 d-flex flex-wrap header margin-auto padding-tb-p5 padding-lr-1"
         >
           <button
             class="bg-none border-none border-r-50pct cursor-ptr header-btn padding-p5"
@@ -182,6 +246,7 @@
             <i class="fas fa-bars"></i>
           </button>
           <h1 class="margin-lr-1">San Francisco, CA</h1>
+
           <div class="margin-l-auto">
             <button
               class="bg-none border-none border-r-50pct cursor-ptr header-btn"
@@ -208,9 +273,10 @@
 
       <div class="component-container d-flex padding-p5">
         <div
-          class="align-items-ctr border-r-2 d-flex flex-wrap margin-auto padding-tb-p5 padding-lr-1 snackbar"
+          class="align-items-ctr border-r-p2 d-flex flex-wrap margin-auto padding-tb-p5 padding-lr-1 snackbar"
         >
           Can't send photo. Retry in 5 seconds.
+
           <div class="margin-l-auto">
             <button class="bg-none border-none btn-retry cursor-ptr padding-p5">
               RETRY

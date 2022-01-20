@@ -1,6 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
 
 :root {
+  --COLOR-BLUE-100: #dbeafe;
+  --COLOR-BLUE-600: #2563eb;
+  --COLOR-BLUE-800: #1e40af;
+  --COLOR-CYAN-100: #cffafe;
+  --COLOR-CYAN-600: #0891b2;
+  --COLOR-CYAN-800: #155e75;
+  --COLOR-ORANGE-100: #ffedd5;
+  --COLOR-ORANGE-600: #ea580c;
+  --COLOR-ORANGE-800: #9a3412;
   --COLOR-RED-50: #fbf2f3;
   --COLOR-RED-100: #f7d5d7;
   --COLOR-RED-500: #e9575b;
@@ -13,6 +22,9 @@
   --COLOR-STONE-700: #44403c;
   --COLOR-STONE-800: #333;
   --COLOR-WHITE: #fff;
+  --COLOR-YELLOW-100: #fef9c3;
+  --COLOR-YELLOW-600: #ca8a04;
+  --COLOR-YELLOW-800: #854d0e;
 
   font-family: "Roboto", sans-serif;
 }

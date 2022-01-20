@@ -2,6 +2,14 @@
   padding: 1rem;
 }
 
+/* padding-tb-lr */
+
+.padding-p2-p5 {
+  padding: 0.2rem 0.5rem;
+}
+
+/*  */
+
 .padding-p5 {
   padding: 0.5rem;
 }
@@ -10,7 +18,6 @@
   padding-left: 1rem;
   padding-right: 1rem;
 }
-
 
 .padding-lr-p5 {
   padding-left: 0.5rem;
@@ -25,4 +32,3 @@
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
-
