@@ -1,0 +1,70 @@
+/** Chips */
+
+.chip {
+  background: var(--COLOR-SLATE-400);
+  color: var(--COLOR-WHITE);
+  display: inline-block;
+  font-size: 0.8rem;
+}
+
+.chip-btn-cross {
+  font-size: 0.7rem;
+  height: 1rem;
+  width: 1rem;
+}
+
+.chip-css {
+  background: var(--COLOR-BLUE-600);
+}
+
+.chip-css button {
+  background: var(--COLOR-BLUE-100);
+  color: var(--COLOR-BLUE-800);
+}
+
+.chip-css button:hover {
+  border: thin solid var(--COLOR-BLUE-600);
+  box-shadow: 0.05rem 0.05rem 0.2rem var(--COLOR-BLUE-100);
+}
+
+.chip-html {
+  background: var(--COLOR-ORANGE-600);
+}
+
+.chip-html button {
+  background: var(--COLOR-ORANGE-100);
+  color: var(--COLOR-ORANGE-800);
+}
+
+.chip-html button:hover {
+  border: thin solid var(--COLOR-ORANGE-600);
+  box-shadow: 0.05rem 0.05rem 0.2rem var(--COLOR-ORANGE-100);
+}
+
+.chip-js {
+  background: var(--COLOR-YELLOW-600);
+}
+
+.chip-js button {
+  background: var(--COLOR-YELLOW-100);
+  color: var(--COLOR-YELLOW-800);
+}
+
+.chip-js button:hover {
+  border: thin solid var(--COLOR-YELLOW-600);
+  box-shadow: 0.05rem 0.05rem 0.2rem var(--COLOR-YELLOW-100);
+}
+
+.chip-react {
+  background: var(--COLOR-CYAN-600);
+}
+
+.chip-react button {
+  background: var(--COLOR-CYAN-100);
+  color: var(--COLOR-CYAN-800);
+}
+
+.chip-react button:hover {
+  border: thin solid var(--COLOR-CYAN-600);
+  box-shadow: 0.05rem 0.05rem 0.2rem var(--COLOR-CYAN-100);
+}

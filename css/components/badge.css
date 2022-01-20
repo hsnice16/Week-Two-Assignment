@@ -26,7 +26,6 @@
 .btn-action {
   color: var(--COLOR-WHITE);
   background: var(--COLOR-STONE-800);
-  border-radius: 1.9rem;
   font-weight: 600;
 }
 

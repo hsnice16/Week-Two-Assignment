@@ -7,8 +7,8 @@ body {
 /** Container */
 
 .container {
-  max-width: 50rem;
   color: var(--COLOR-STONE-700);
+  max-width: 50rem;
 }
 
 .component-container {
@@ -17,40 +17,3 @@ body {
 }
 
 /** Utilities */
-
-.a-decoration-none {
-  text-decoration: none;
-}
-
-.ul-no-bullets {
-  list-style: none;
-}
-
-/** Drawer */
-
-.drawer {
-  background: var(--COLOR-WHITE);
-  box-shadow: 0.1rem 0.1rem 0.2rem var(--COLOR-SLATE-400);
-  width: 14rem;
-}
-
-.drawer-link:hover {
-  background: var(--COLOR-RED-50);
-}
-
-.drawer-link a {
-  color: var(--COLOR-RED-600);
-}
-
-.drawer-subtext {
-  font-size: 0.8rem;
-}
-
-.drawer-title {
-  font-size: 1.5rem;
-}
-
-.link-active,
-.link-active:hover {
-  background: var(--COLOR-RED-100);
-}
