@@ -1,0 +1,23 @@
+.align-items-ctr {
+  align-items: center;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.justify-content-ctr {
+  justify-content: center;
+}
+
+.justify-content-sa {
+  justify-content: space-around;
+}
+
+.justify-content-sb {
+  justify-content: space-between;
+}

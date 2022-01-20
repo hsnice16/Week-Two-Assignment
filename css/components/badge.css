@@ -1,0 +1,42 @@
+/** Badge */
+
+.badge {
+  background: var(--COLOR-RED-600);
+  border: thin solid var(--COLOR-RED-600);
+  color: var(--COLOR-WHITE);
+  font-weight: normal;
+  font-size: 0.65rem;
+  height: 1.25rem;
+  width: 1.25rem;
+  text-align: center;
+}
+
+.badge-br {
+  transform: translate(55%, 35%);
+}
+
+.badge-tl {
+  transform: translate(-45%, -45%);
+}
+
+.badge-tr {
+  transform: translate(58%, -40%);
+}
+
+.btn-action {
+  color: var(--COLOR-WHITE);
+  background: var(--COLOR-STONE-800);
+  border-radius: 1.9rem;
+  font-weight: 600;
+}
+
+.btn-home,
+.btn-notify {
+  font-size: 1.5rem;
+  color: var(--COLOR-STONE-800);
+}
+
+.text-w-badge {
+  font-weight: 600;
+  color: var(--COLOR-STONE-800);
+}

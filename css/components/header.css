@@ -1,0 +1,24 @@
+/** Header */
+
+.header {
+  background: var(--COLOR-STONE-800);
+  box-shadow: 0.2rem 0.2rem 0.5rem var(--COLOR-SLATE-400);
+  color: var(--COLOR-WHITE);
+  font-size: 0.6rem;
+  width: 40rem;
+}
+
+.header-btn {
+  color: var(--COLOR-WHITE);
+  font-size: 1.2rem;
+  height: 2.2rem;
+  width: 2.2rem;
+}
+
+.header-btn img {
+  vertical-align: bottom;
+}
+
+.header-btn:hover {
+  background: var(--COLOR-STONE-500);
+}

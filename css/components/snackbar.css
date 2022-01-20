@@ -1,0 +1,29 @@
+/** Snackbar */
+
+.btn-cross {
+  color: var(--COLOR-WHITE);
+  font-size: 0.9rem;
+  height: 1.9rem;
+  width: 1.9rem;
+}
+
+.btn-cross:hover {
+  background: var(--COLOR-STONE-500);
+}
+
+.btn-retry {
+  color: var(--COLOR-RED-500);
+  font-weight: 600;
+}
+
+.btn-retry:hover {
+  background: var(--COLOR-RED-800);
+}
+
+.snackbar {
+  background: var(--COLOR-STONE-800);
+  box-shadow: 0.2rem 0.2rem 0.5rem var(--COLOR-SLATE-400);
+  color: var(--COLOR-WHITE);
+  font-size: 0.9rem;
+  width: 24rem;
+}
