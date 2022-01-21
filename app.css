@@ -19,3 +19,60 @@ body {
 /** Utilities */
 
 /** Component */
+
+.card {
+  background: var(--COLOR-WHITE);
+  box-shadow: 0.1rem 0.1rem 0.2rem var(--COLOR-SLATE-400);
+  width: 19rem;
+}
+
+.card-icon-btn {
+  color: var(--COLOR-STONE-500);
+  font-size: 1rem;
+  height: 2.2rem;
+  width: 2.2rem;
+}
+
+.card-icon-btn:hover {
+  background: var(--COLOR-SLATE-100);
+}
+
+.card-img {
+  height: 10rem;
+  object-fit: cover;
+  width: 100%;
+}
+
+.card-text-btn {
+  color: var(--COLOR-RED-500);
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.card-text-btn:hover {
+  background: var(--COLOR-RED-50);
+}
+
+.card-title {
+  font-size: 1.2rem;
+}
+
+.card-body,
+.card-subtitle {
+  font-size: 0.8rem;
+}
+
+.card-text-over-media {
+  color: var(--COLOR-STONE-900);
+  text-shadow: 0.05rem 0.05rem var(--COLOR-WHITE);
+}
+
+.card-hidden-part {
+  display: none;
+}
+
+.card-horizontal-img-text {
+  width: 7rem;
+  height: 7rem;
+  object-fit: cover;
+}

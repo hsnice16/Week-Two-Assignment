@@ -1,7 +1,7 @@
 /** Badge */
 
 .badge {
-  background: var(--COLOR-RED-600);
+  background: var(--COLOR-RED-500);
   border: thin solid var(--COLOR-RED-600);
   color: var(--COLOR-WHITE);
   font-weight: normal;

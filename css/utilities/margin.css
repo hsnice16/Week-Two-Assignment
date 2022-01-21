@@ -36,6 +36,14 @@
   margin-top: 1rem;
 }
 
+.margin-t-n2 {
+  margin-top: -2rem;
+}
+
+.margin-t-n3 {
+  margin-top: -3rem;
+}
+
 .margin-tb-1 {
   margin-top: 1rem;
   margin-bottom: 1rem;
