@@ -6,6 +6,7 @@
 @import url("utilities/background.css");
 @import url("utilities/border.css");
 @import url("utilities/cursor.css");
+@import url("utilities/display.css");
 @import url("utilities/flex.css");
 @import url("utilities/list.css");
 @import url("utilities/margin.css");
@@ -15,6 +16,7 @@
 /** component */
 
 @import url("components/badge.css");
+@import url("components/cards.css");
 @import url("components/chips.css");
 @import url("components/dialog.css");
 @import url("components/drawer.css");
