@@ -22,7 +22,7 @@
   font-size: 1.5rem;
 }
 
-.link-active,
-.link-active:hover {
+.drawer-link-active,
+.drawer-link-active:hover {
   background: var(--COLOR-RED-100);
 }
