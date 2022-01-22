@@ -13,6 +13,7 @@
 
 .btn-retry {
   color: var(--COLOR-RED-500);
+  font-size: 0.9rem;
   font-weight: 600;
 }
 

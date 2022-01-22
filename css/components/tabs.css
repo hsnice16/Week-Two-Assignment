@@ -1,0 +1,19 @@
+/* Tabs */
+
+.tab {
+  width: 24rem;
+}
+
+.tab-link {
+  color: var(--COLOR-SLATE-400);
+  width: calc(100% / 3);
+}
+
+.tab-link:hover {
+  background: var(--COLOR-RED-50);
+}
+
+.tab-link-active {
+  border-bottom: medium solid var(--COLOR-RED-600);
+  color: var(--COLOR-RED-600);
+}

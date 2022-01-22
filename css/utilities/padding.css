@@ -4,6 +4,10 @@
 
 /* padding-tb-lr */
 
+.padding-1-p5 {
+  padding: 1rem 0.5rem;
+}
+
 .padding-p2-p5 {
   padding: 0.2rem 0.5rem;
 }
