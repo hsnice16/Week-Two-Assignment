@@ -16,10 +16,10 @@ body {
   min-height: 12.5rem;
 }
 
-/* media */
+/** media */
 
 @media screen and (max-width: 24em) {
   html {
-    font-size: 14px;
+    font-size: 87.5%;
   }
 }
