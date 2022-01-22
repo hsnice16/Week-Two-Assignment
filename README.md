@@ -25,31 +25,11 @@ UI of the components
 
 ### Cards
 
-<table align="center">
-  <tr>
-    <td width="50%">
-
 ![card component row 1 PNG](assets/pngs/card-r1.PNG)
-
-</td>
-  </tr>
-
-  <tr>
-    <td width="50%">
 
 ![card component row 2 PNG](assets/pngs/card-r2.PNG)
 
-</td>
-  </tr>
-
-  <tr>
-    <td width="50%">
-
 ![card component row 3 PNG](assets/pngs/card-r3.PNG)
-
-</td>
-  </tr>
-</table>
 
 ### Chips
 
