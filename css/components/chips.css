@@ -3,7 +3,6 @@
 .chip {
   background: var(--COLOR-SLATE-400);
   color: var(--COLOR-WHITE);
-  display: inline-block;
   font-size: 0.8rem;
 }
 
